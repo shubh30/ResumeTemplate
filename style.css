@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
 #body-header {
     height: 65vh;
     opacity: 0.8;
-    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-image: url(./image/tags.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -557,6 +557,10 @@ button:focus {
 
 /*common color classes */
 
+.leetcode {
+    text-decoration: none;
+}
+
 .text-highlight {
     color: #2857a4;
     font-weight: 600;
@@ -604,3 +608,4 @@ button:focus {
     height: inherit;
     width: 50%;
 }
+
